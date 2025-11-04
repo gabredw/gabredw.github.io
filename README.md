@@ -2,4 +2,4 @@
 * Blah
 
 ## Where's Schueller?
-{% include_relative wheres-schueller.html %}
+{% include_relative wheres-schueller.html width = '100%' %}
