@@ -1,2 +1,2 @@
-<iframe src="settler-violence-map-wb (1).html"</iframe>
+<iframe src="settler-violence-map-wb.html" width="1200" height="800"</iframe>
 
