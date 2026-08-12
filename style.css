@@ -55,3 +55,22 @@ h2 {
     font-size: 2.3vw;
 }
 
+.contact-links {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-links a {
+    color:#3f1521;
+    background-color: #cfd78c;
+    font-family: var(--sans);
+    padding: 15px;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    background-color: #3f1521;
+    color:#f0dae0;
+    box-shadow: 0 0 0 1px #cfd78c;
+}
+
