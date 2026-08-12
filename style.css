@@ -39,11 +39,12 @@ h1 {
 
 p {
     font-family: var(--sans);
-    font-size: medium;
+    font-size: large;
 }
 
 h2 {
     font-family: var(--serif);
     font-style: italic;
+    font-size: 2.3vw;
 }
 
