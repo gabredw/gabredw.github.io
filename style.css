@@ -1,7 +1,7 @@
 :root {
-    --serif: 'Cormorant Garamond', serif;
-    --sans: 'Lato', sans-serif;
-    --display: 'Gotu', sans-serif;
+    --serif: 'Arapey', serif;
+    --sans: 'Work Sans', sans-serif;
+    --display: 'Aboreto', sans-serif;
 }
 
 body {
@@ -11,14 +11,34 @@ body {
     min-height: 100vh;
     justify-content: space-between;
     background-color: #ffffee;
+    color: #3f1521;
 }
 
-header, .contact{
+header, #contact {
     color: #cfd78c;
     background-color: #3f1521;
+    height: 25vh;
 }
 
 header {
-    padding-top: 0.1px; /* any nonzero padding stops the collapse */
+    padding-top: 0.1px;
+}
+
+.section {
+    padding: 25px;
+}
+
+h1 {
+    font-family: var(--display);
+}
+
+p {
+    font-family: var(--sans);
+    font-size: x-large;
+}
+
+h2 {
+    font-family: var(--serif);
+    font-style: italic;
 }
 
