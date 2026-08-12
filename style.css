@@ -3,3 +3,22 @@
     --sans: 'Lato', sans-serif;
     --display: 'Gotu', sans-serif;
 }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #ffffee;
+}
+
+header, .contact{
+    color: #cfd78c;
+    background-color: #3f1521;
+}
+
+header {
+    padding-top: 0.1px; /* any nonzero padding stops the collapse */
+}
+
