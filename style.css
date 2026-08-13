@@ -126,7 +126,7 @@ h2 {
 .project-card {
     box-shadow: 0 0 0 1px #3f1521;
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     /* padding: 15px; */
     color:#cfd78c;
     background-color: #fff8f0;
@@ -140,6 +140,11 @@ h2 {
     font-style: normal;
     font-weight: normal;
     font-size: x-large;
+}
+
+.project-card .project-links {
+    display: flex;
+    gap: 50px;
 }
 
 .project-card a {
