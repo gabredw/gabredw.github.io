@@ -98,6 +98,10 @@ h2 {
     color: #cfd78c;
 }
 
+#about span {
+    font-family: var(--display);
+}
+
 .project {
     display: flex;
     flex-direction: column;
