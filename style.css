@@ -98,7 +98,7 @@ h2 {
 .section-links a:hover {
     color: #cfd78c;
     text-decoration: underline;
-    text-decoration-thickness: .5px;
+    text-decoration-thickness: 0.05em;
     text-underline-offset: 0.4em;
 }
 
@@ -126,11 +126,13 @@ h2 {
 .project-card {
     box-shadow: 0 0 0 1px #3f1521;
     width: 100%;
-    height: 35vh;
+    height: 45vh;
     /* padding: 15px; */
     color:#cfd78c;
     background-color: #fff8f0;
     box-shadow: 0 0 5px #3f1521;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card h2 {
@@ -138,6 +140,20 @@ h2 {
     font-style: normal;
     font-weight: normal;
     font-size: x-large;
+}
+
+.project-card a {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: larger;
+    color: #3f1521;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.05em;
+    text-underline-offset: 0.4em;
 }
 
 .project-card .upper-card p {
@@ -155,6 +171,16 @@ h2 {
 .project-card .lower-card {
     color: #3f1521;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+}
+
+.project-card .lower-card p {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .project-card:hover {
