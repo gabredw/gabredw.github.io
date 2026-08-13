@@ -46,11 +46,12 @@ header .container {
     justify-content: space-between;
 }
 
-.eyebrow span {
+.eyebrow span, .eyebrow a {
     font-family: var(--sans);
     font-style: normal;
     font-weight: lighter;
     font-size: large;
+    text-decoration: none;
     color: #cfd78c;
 }
 
@@ -96,10 +97,21 @@ h2 {
 
 .section-links a:hover {
     color: #cfd78c;
+    text-decoration: underline;
+    text-decoration-thickness: .5px;
+    text-underline-offset: 0.4em;
 }
 
 #about span {
     font-family: var(--display);
+}
+
+#about {
+    padding-bottom: 0;
+}
+
+#projects {
+    padding-top: 15px;
 }
 
 .project {
@@ -145,6 +157,7 @@ h2 {
 
 #contact {
     height: 25vh;
+    color: #f0dae0;
 }
 
 .contact-links {
@@ -154,7 +167,7 @@ h2 {
 
 .contact-links a {
     color:#3f1521;
-    background-color: #f0dae0;
+    background-color: #cfd78c;
     font-family: var(--sans);
     padding: 15px;
     text-decoration: none;
@@ -163,6 +176,6 @@ h2 {
 .contact-links a:hover {
     background-color: #3f1521;
     color:#f0dae0;
-    box-shadow: 0 0 0 1px #f0dae0;
+    box-shadow: 0 0 0 1px #cfd78c;
 }
 
