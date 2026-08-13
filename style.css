@@ -54,10 +54,6 @@ header .container {
     color: #cfd78c;
 }
 
-#contact {
-    height: 30vh;
-}
-
 .section {
     padding: 25px;
 }
@@ -133,6 +129,10 @@ h2 {
 
 .project-card:hover {
     box-shadow: 0px 0px 10px #3f1521;
+}
+
+#contact {
+    height: 30vh;
 }
 
 .contact-links {
