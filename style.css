@@ -96,17 +96,20 @@ h2 {
 
 .project {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    min-height: 63vh;
 }
 
 .project-card {
     box-shadow: 0 0 0 1px #3f1521;
-    width: 20vw;
+    width: 100%;
     height: 30vh;
     /* padding: 15px; */
     color:#cfd78c;
     /* background-color: #3f1521; */
-    box-shadow: 0px 3px 5px #3f1521;
+    box-shadow: 0 0 5px #3f1521;
 }
 
 .project-card h2 {
@@ -128,7 +131,7 @@ h2 {
 }
 
 .project-card:hover {
-    box-shadow: 0px 0px 10px #3f1521;
+    box-shadow: 0 0 10px #3f1521;
 }
 
 #contact {
@@ -142,7 +145,7 @@ h2 {
 
 .contact-links a {
     color:#3f1521;
-    background-color: #cfd78c;
+    background-color: #f0dae0;
     font-family: var(--sans);
     padding: 15px;
     text-decoration: none;
@@ -151,6 +154,6 @@ h2 {
 .contact-links a:hover {
     background-color: #3f1521;
     color:#f0dae0;
-    box-shadow: 0 0 0 1px #cfd78c;
+    box-shadow: 0 0 0 1px #f0dae0;
 }
 
