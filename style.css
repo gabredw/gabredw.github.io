@@ -140,7 +140,7 @@ h2 {
     font-size: x-large;
 }
 
-.project-card p {
+.project-card .upper-card p {
     font-weight: lighter;
     font-style: italic;
     color:#fff8f0;
