@@ -4,6 +4,10 @@
     --display: 'Aboreto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -72,6 +76,43 @@ h2 {
     font-family: var(--sans);
     font-size: large;
     text-decoration: none;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card {
+    box-shadow: 0 0 0 1px #3f1521;
+    width: 20vw;
+    height: 30vh;
+    /* padding: 15px; */
+    color:#cfd78c;
+    /* background-color: #3f1521; */
+    box-shadow: 0px 3px 5px #3f1521;
+}
+
+.project-card h2 {
+    font-family: var(--display);
+    font-style: normal;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.project-card .upper-card {
+    background-color: #3f1521;
+    padding-top: .1px;
+    padding: 15px;
+}
+
+.project-card .lower-card {
+    color: #3f1521;
+    padding: 15px;
+}
+
+.project-card:hover {
+    box-shadow: 0px 0px 10px #3f1521;
 }
 
 .contact-links {
