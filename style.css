@@ -88,7 +88,7 @@ h2 {
 }
 
 .section-links a {
-    color: #f0dae0;
+    color: #fff8f0;
     font-family: var(--sans);
     font-size: x-large;
     font-weight: lighter;
@@ -129,7 +129,7 @@ h2 {
     height: 30vh;
     /* padding: 15px; */
     color:#cfd78c;
-    /* background-color: #3f1521; */
+    background-color: #fff8f0;
     box-shadow: 0 0 5px #3f1521;
 }
 
@@ -157,7 +157,7 @@ h2 {
 
 #contact {
     height: 25vh;
-    color: #f0dae0;
+    color: #fff8f0;
 }
 
 .contact-links {
